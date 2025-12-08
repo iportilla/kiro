@@ -9,10 +9,6 @@ from typing import Dict, List, Tuple
 class SentimentAnalyzer:
     """A class to perform sentiment analysis on text data."""
     
-    def __init__(self):
-        """Initialize the sentiment analyzer."""
-        pass
-    
     def analyze_sentiment(self, text: str) -> Dict[str, float]:
         """
         Analyze sentiment of a single text.

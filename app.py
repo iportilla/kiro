@@ -88,7 +88,6 @@ def handle_single_review(analyzer: SentimentAnalyzer):
                 )
             
             with col2:
-                polarity_color = "green" if result['polarity'] > 0 else "red" if result['polarity'] < 0 else "gray"
                 st.metric("Polarity", f"{result['polarity']:.3f}")
             
             with col3:
