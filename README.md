@@ -10,7 +10,7 @@ It assumes no prior experience and gives step-by-step instructions.
 
 
 
-# **🏠 Airbnb Sentiment Analyzer — Quick Start Guide (For Junior Developers)**
+# **Airbnb Sentiment Analyzer — Quick Start Guide (For Junior Developers)**
 
 
 
@@ -50,9 +50,9 @@ pip install -r requirements.txt
 
 If you need to install Kiro separately:
 
-```
+
 Download from [Kiro](https://kiro.dev/docs/)
-```
+
 
 
 
