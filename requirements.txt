@@ -1,7 +1,6 @@
 streamlit
 pandas
 openai
-kiro
 python-dotenv
 
 # Optional but recommended for data handling + utils
