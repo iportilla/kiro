@@ -1,0 +1,15 @@
+streamlit
+pandas
+openai
+kiro
+python-dotenv
+
+# Optional but recommended for data handling + utils
+numpy
+
+# If your pipeline uses plots or visualization
+matplotlib
+plotly
+
+# If you load CSVs or handle tabular data
+pyarrow
