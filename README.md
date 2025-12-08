@@ -193,11 +193,11 @@ Then the app will:
 Inside your repo, you’ll add your logic here:
 
 ```
-sentiment/
- └── pipeline.py     # your Kiro + OpenAI refactored code
+code/
+ └── pipeline.py     # your OpenAI refactored code
 ```
 
-In streamlit_app.py, you’ll see a placeholder:
+In app.py, you’ll see a placeholder:
 
 ```
 # result = run_sentiment_pipeline(review_text)
@@ -245,7 +245,7 @@ Make sure you’re in the correct folder:
 
 ```
 cd code
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 
 
