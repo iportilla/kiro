@@ -3,13 +3,13 @@ Sentiment Analysis Module for Airbnb Reviews
 """
 from textblob import TextBlob
 import pandas as pd
-from typing import Dict, List, Tuple
+from typing import Dict, List, Union
 
 
 class SentimentAnalyzer:
     """A class to perform sentiment analysis on text data."""
     
-    def analyze_sentiment(self, text: str) -> Dict[str, float]:
+    def analyze_sentiment(self, text: str) -> Dict[str, Union[float, str]]:
         """
         Analyze sentiment of a single text.
         
