@@ -28,9 +28,8 @@ with st.sidebar:
     )
     
     st.markdown("---")
-    st.markdown("### Settings")
-    theme = st.selectbox("Theme", ["Light", "Dark", "Auto"])
-    st.info(f"Current theme: {theme}")
+    st.markdown("### Info")
+    st.info("📱 Responsive design\n\n⚡ Fast and interactive\n\n🎨 Clean UI")
 
 # Main content based on selected page
 if page == "Home":
@@ -67,7 +66,8 @@ if page == "Home":
 elif page == "Data Visualization":
     st.header("Data Visualization")
     
-    # Generate sample data
+    # Generate sample data with fixed seed for consistency
+    np.random.seed(42)
     chart_data = pd.DataFrame(
         np.random.randn(20, 3),
         columns=['Series A', 'Series B', 'Series C']
@@ -178,11 +178,6 @@ elif page == "About":
 
 # Footer
 st.markdown("---")
-st.markdown(
-    """
-    <div style='text-align: center'>
-        <p>Kiro © 2025 | Built with Streamlit</p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    st.markdown("Kiro © 2025 | Built with Streamlit")
