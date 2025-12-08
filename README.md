@@ -32,7 +32,7 @@ This guide walks you through **installing Kiro**, **setting up your environment*
 
 
 
-## **✅ 1. Install Requirements**
+## **1. Install Requirements**
 
 
 
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 If you need to install Kiro separately:
 
 ```
-pip install kiro
+Download from [Kiro](https://kiro.dev/docs/)
 ```
 
 
@@ -62,7 +62,7 @@ pip install kiro
 
 
 
-## **✅ 2. Set Your API Keys**
+## **2. Set Your API Keys**
 
 
 
@@ -73,7 +73,7 @@ You will need:
 
 
 - **OpenAI API Key**
-- **Kiro API Key**
+
 
 
 
@@ -87,7 +87,7 @@ Create .env:
 
 ```
 OPENAI_API_KEY=your_openai_key_here
-KIRO_API_KEY=your_kiro_key_here
+
 ```
 
 
@@ -98,7 +98,7 @@ KIRO_API_KEY=your_kiro_key_here
 
 
 
-## **✅ 3. Run the Streamlit App**
+## **3. Run the Streamlit App**
 
 
 
@@ -124,7 +124,7 @@ http://localhost:8501
 
 
 
-## **✅ 4. How the App Works**
+## **4. How the App Works**
 
 
 
@@ -162,7 +162,7 @@ Then the app will:
 
 
 
-1. Call your Kiro + OpenAI sentiment pipeline
+1. Call your OpenAI sentiment pipeline
 
 2. Return:
 
@@ -184,7 +184,7 @@ Then the app will:
 
 
 
-## **✅ 5. Where Your Code Goes**
+## **5. Where Your Code Goes**
 
 
 
@@ -213,7 +213,7 @@ Replace that with your real function.
 
 
 
-## **✅ 6. Troubleshooting**
+## **6. Troubleshooting**
 
 
 
@@ -233,24 +233,6 @@ Make sure your .env is loaded or paste keys into the sidebar.
 
 
 
-
-
-### **❌** 
-
-### **Kiro module not found**
-
-
-
-
-
-Install it:
-
-```
-pip install kiro
-```
-
-
-
 ### **❌** 
 
 ### **Streamlit not running**
@@ -262,7 +244,7 @@ pip install kiro
 Make sure you’re in the correct folder:
 
 ```
-cd airbnb-sentiment-app
+cd code
 streamlit run streamlit_app.py
 ```
 
@@ -274,35 +256,15 @@ streamlit run streamlit_app.py
 
 
 
-## **🎯 Final Notes for the Assignment**
+## **Final Notes for the Assignment**
 
 
 
 
 
 - Keep the app simple
-- Make sure your Kiro pipeline works for both single reviews and CSV files
+- Make sure your pipeline works for both single reviews and CSV files
 - Include screenshots in your final submission
 - Update your README with instructions for running your version
 
 
-
-
-
-------
-
-
-
-If you’d like, I can also create:
-
-
-
-📘 A visual architecture diagram
-
-🧪 A test dataset for students
-
-🖥 A demo GIF for the README
-
-
-
-Just tell me!
