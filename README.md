@@ -40,7 +40,17 @@ This guide walks you through **installing Kiro**, **setting up your environment*
 
 Make sure you have **Python 3.9+** installed.
 
+Clone this repo with:
 
+```
+git clone https://github.com/iportilla/kiro.git
+```
+
+Change to folder:
+
+```
+cd kiro
+```
 
 Then install the dependencies:
 
