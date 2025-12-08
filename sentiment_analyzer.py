@@ -64,7 +64,7 @@ class SentimentAnalyzer:
         
         return pd.DataFrame(results)
     
-    def get_sentiment_stats(self, df: pd.DataFrame) -> Dict:
+    def get_sentiment_stats(self, df: pd.DataFrame) -> Dict[str, Union[int, float]]:
         """
         Calculate sentiment statistics from analyzed data.
         

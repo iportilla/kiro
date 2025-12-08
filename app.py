@@ -305,7 +305,7 @@ def display_batch_results(df: pd.DataFrame, analyzer: SentimentAnalyzer):
             'neutral': '#D3D3D3',
             'negative': '#FFB6C6'
         },
-        hover_data=['review']
+        hover_data={'review': False, 'review_id': True}
     )
     st.plotly_chart(fig_scatter, use_container_width=True)
     
