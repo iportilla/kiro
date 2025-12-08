@@ -204,7 +204,7 @@ Inside your repo, you’ll add your logic here:
 
 ```
 code/
- └── pipeline.py     # your OpenAI refactored code
+ └── sentiment_analysis.py     # your OpenAI refactored code
 ```
 
 In app.py, you’ll see a placeholder:
